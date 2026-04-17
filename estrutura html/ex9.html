@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Fase 4</title>
+<link rel="stylesheet" href="./ex9.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Foemulário Completo</h2>
+        <form>
+            <label>Nome:</label>
+            <input type="text" name="Nome">
+
+            <label>Email:</label>
+            <input type="email" name="email">
+            <label>Mensagem:</label>
+            <textarea name="Mensagem"></textarea>
+
+            <div class="row">
+            <label>
+                <input class="inline" type="checkbox" name="termos" > Acitar termos
+            </label>
+        </div>
+
+        <div class="row">
+            <label>Tipo</label>
+            <label><input class="inline" type="radio" name="tipo" value="aluno"> Aluno</label>
+            <label><input class="inline" type="radio" name="tipo" value="professor"> Professor</label>
+        </div>
+
+        <button type="submit">enviar</button>
+        </form>
+    </div>
+</body>
+</html>
